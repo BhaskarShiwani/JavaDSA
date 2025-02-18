@@ -14,8 +14,7 @@ public class Hollow_squre_star_pattern {
                 System.out.println();
             }
             else{
-                if(i >= 1 && i < n-1){
-                    for(int j = 0 ; j < n ; j++){
+                for(int j = 0 ; j < n ; j++){
                         if(j == 0 || j == n - 1){
                             System.out.print("*");
                         }
@@ -28,5 +27,4 @@ public class Hollow_squre_star_pattern {
             }
             sc.close();
         }
-    }
 }
